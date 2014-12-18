@@ -1,0 +1,244 @@
+--- !ruby/object:Game
+board: &1 !ruby/object:Board
+  grid:
+  - - !ruby/object:Rook
+      pos:
+      - 0
+      - 0
+      board: *1
+      color: :B
+    - !ruby/object:Knight
+      pos:
+      - 0
+      - 1
+      board: *1
+      color: :B
+    - !ruby/object:Bishop
+      pos:
+      - 0
+      - 2
+      board: *1
+      color: :B
+    - !ruby/object:Queen
+      pos:
+      - 0
+      - 3
+      board: *1
+      color: :B
+    - !ruby/object:King
+      pos:
+      - 0
+      - 4
+      board: *1
+      color: :B
+    - !ruby/object:Bishop
+      pos:
+      - 0
+      - 5
+      board: *1
+      color: :B
+    - !ruby/object:Knight
+      pos:
+      - 0
+      - 6
+      board: *1
+      color: :B
+    - !ruby/object:Rook
+      pos:
+      - 0
+      - 7
+      board: *1
+      color: :B
+  - - !ruby/object:Pawn
+      pos:
+      - 1
+      - 0
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 1
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 2
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 3
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 4
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 5
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 6
+      board: *1
+      color: :B
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 1
+      - 7
+      board: *1
+      color: :B
+      moved: false
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - !ruby/object:Pawn
+      pos:
+      - 5
+      - 0
+      board: *1
+      color: :W
+      moved: false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - - 
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 1
+      board: *1
+      color: :W
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 2
+      board: *1
+      color: :W
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 3
+      board: *1
+      color: :W
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 4
+      board: *1
+      color: :W
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 5
+      board: *1
+      color: :W
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 6
+      board: *1
+      color: :W
+      moved: false
+    - !ruby/object:Pawn
+      pos:
+      - 6
+      - 7
+      board: *1
+      color: :W
+      moved: false
+  - - !ruby/object:Rook
+      pos:
+      - 7
+      - 0
+      board: *1
+      color: :W
+    - !ruby/object:Knight
+      pos:
+      - 7
+      - 1
+      board: *1
+      color: :W
+    - !ruby/object:Bishop
+      pos:
+      - 7
+      - 2
+      board: *1
+      color: :W
+    - !ruby/object:Queen
+      pos:
+      - 7
+      - 3
+      board: *1
+      color: :W
+    - !ruby/object:King
+      pos:
+      - 7
+      - 4
+      board: *1
+      color: :W
+    - !ruby/object:Bishop
+      pos:
+      - 7
+      - 5
+      board: *1
+      color: :W
+    - !ruby/object:Knight
+      pos:
+      - 7
+      - 6
+      board: *1
+      color: :W
+    - !ruby/object:Rook
+      pos:
+      - 7
+      - 7
+      board: *1
+      color: :W
+  killed_pieces: []
